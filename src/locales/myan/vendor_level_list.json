@@ -1,0 +1,17 @@
+{
+    "title": "ရောင်းချသူအဆင့်များ",
+    "breadcrumb_home": "မူလစာမျက်နှာ",
+    "breadcrumb_vendor_levels": "ရောင်းချသူအဆင့်များ",
+    "all_vendor_levels": "ရောင်းချသူအဆင့်များအားလုံး",
+    "add_level": "အဆင့်ထည့်မည်",
+    "choose_language": "ဘာသာစကားရွေးချယ်ပါ:",
+    "no": "အမှတ်",
+    "vendor_level": "ရောင်းချသူအဆင့်",
+    "description": "ဖော်ပြချက်",
+    "benefits": "အကျိုးကျေးဇူးများ",
+    "action": "လုပ်ဆောင်မှု",
+    "edit": "ပြင်ဆင်မည်",
+    "delete": "ဖျက်မည်",
+    "no_vendor_levels_found": "ရောင်းချသူအဆင့်များမတွေ့ပါ။"
+ 
+}

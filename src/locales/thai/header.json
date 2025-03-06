@@ -1,0 +1,18 @@
+{
+    "admin": "แอดมิน",
+    "search_placeholder": "ค้นหา",
+    "search_title": "ป้อนคำค้นหา",
+    "search": "ค้นหา",
+    "english": "อังกฤษ",
+    "thai": "ไทย",
+    "myanmar": "พม่า",
+    "notifications_header": "คุณมีการแจ้งเตือนใหม่ {{count}} รายการ",
+    "view_all": "ดูทั้งหมด",
+    "notification_title": "Lorem Ipsum",
+    "notification_message": "Quae dolorem earum veritatis oditseno",
+    "time_ago": "{{time}} นาที ที่แล้ว",
+    "loading": "กำลังโหลด...",
+    "my_profile": "โปรไฟล์ของฉัน",
+    "need_help": "ต้องการความช่วยเหลือ?",
+    "log_out": "ออกจากระบบ"
+  }
