@@ -1,0 +1,18 @@
+{
+    "vendorLevels": {
+      "title": "Vendor Levels",
+      "addLevel": "Add Level",
+      "vendorLevel": "Vendor Level",
+      "levelDescription": "Level Description",
+      "benefits": "Benefits",
+      "action": "Action",
+      "edit": "Edit",
+      "delete": "Delete",
+      "noLevelsFound": "No vendor levels found.",
+      "confirmDeletion": "Confirm Deletion",
+      "areYouSure": "Are you sure you want to delete this vendor level?",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "submitting": "Submitting..."
+    }
+  }

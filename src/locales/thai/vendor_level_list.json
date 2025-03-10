@@ -1,0 +1,16 @@
+{
+    "title": "ระดับผู้ขาย",
+    "breadcrumb_home": "หน้าหลัก",
+    "breadcrumb_vendor_levels": "ระดับผู้ขาย",
+    "all_vendor_levels": "ระดับผู้ขายทั้งหมด",
+    "add_level": "เพิ่มระดับ",
+    "choose_language": "เลือกภาษา:",
+    "no": "ลำดับ",
+    "vendor_level": "ระดับผู้ขาย",
+    "description": "คำอธิบาย",
+    "benefits": "สิทธิประโยชน์",
+    "action": "การดำเนินการ",
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "no_vendor_levels_found": "ไม่พบระดับผู้ขาย"
+  }

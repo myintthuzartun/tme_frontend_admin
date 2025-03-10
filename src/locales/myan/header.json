@@ -1,0 +1,18 @@
+{
+    "admin": "အက်မင်",
+    "search_placeholder": "ရှာဖွေရန်",
+    "search_title": "ရှာဖွေရန် စကားလုံးထည့်ပါ",
+    "search": "ရှာဖွေရန်",
+    "english": "အင်္ဂလိပ်",
+    "thai": "ထိုင်း",
+    "myanmar": "မြန်မာ",
+    "notifications_header": "အသိပေးချက် {{count}} ခု ရှိပါသည်",
+    "view_all": "အားလုံးကြည့်ရန်",
+    "notification_title": "Lorem Ipsum",
+    "notification_message": "Quae dolorem earum veritatis oditseno",
+    "time_ago": "{{time}} မိနစ် အကြာက",
+    "loading": "တင်နေသည်...",
+    "my_profile": "ကျွန်ုပ်၏ ပရိုဖိုင်",
+    "need_help": "အကူအညီလိုအပ်ပါသလား?",
+    "log_out": "ထွက်ရန်"
+  }

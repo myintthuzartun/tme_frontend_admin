@@ -1,0 +1,18 @@
+{
+    "admin": "Admin",
+    "search_placeholder": "Search",
+    "search_title": "Enter search keyword",
+    "search": "Search",
+    "english": "English",
+    "thai": "ไทย (Thai)",
+    "myanmar": "မြန်မာ (Myanmar)",
+    "notifications_header": "You have {{count}} new notifications",
+    "view_all": "View all",
+    "notification_title": "Lorem Ipsum",
+    "notification_message": "Quae dolorem earum veritatis oditseno",
+    "time_ago": "{{time}} min. ago",
+    "loading": "Loading...",
+    "my_profile": "My Profile",
+    "need_help": "Need Help?",
+    "log_out": "Log Out"
+  }

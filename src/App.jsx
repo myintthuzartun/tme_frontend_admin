@@ -1,30 +1,48 @@
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Login from './vendors/Login'; // Ensure correct import path
-import Register from './vendors/Register'; // Ensure correct import path
-import Apply1 from './vendors/Apply1'; // Ensure correct import path
-import Protected from './vendors/Protected';//Administrator
-import AdminDashboard from './admin/Dashboard'; // Ensure file name matches
-import AdminLogin from './admin/Login'; // Ensure file name matches
-import ProtectedRoute from './admin/nav/ProtectedRoute'; // Import the ProtectedRoute component
-import AdminVendorLevel from './admin/Vendor_Level_List'; // Import the AdminVendorLevel
-import AdminBusiness from './admin/Business_List'; // Import the AdminBusiness
-import AdminCategory from './admin/Category'; // Import the AdminCategory
+import React from 'react';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+/* Pages  */
+import Dashboard from './pages/dashboard'; // Ensure file name matches
+import Category from './pages/category'; // Ensure file name matches
+import Register from './pages/register'; // Ensure file name matches
+import Login from './pages/login'; // Ensure file name matches
+import ProtectedRoute from './components/protectedroute'; // Import the ProtectedRoute component
+import VendorLevelList from "./pages/Vendor_Level_List";
+import BusinessList from "./pages/Business_Name_List";
+import BackToTop from "./components/back_to_top";
+import Profile from "./pages/Profile";
+import Currency from "./pages/Currency_Exchange";
+import FAQ from "./pages/FAQ";
+import './components/i18n'; // Import i18n configuration
+
+
+
+
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Login />} />
-      <Route path="/register" element={<Register />} />
-      <Route path="/apply1" element={<Protected Cmp={Apply1} />} />
-      <Route path="/admin_login" element={<AdminLogin />} />
-      <Route path="/admindashboard" element={<ProtectedRoute>
-          <AdminDashboard />
-        </ProtectedRoute>} />
-        <Route path="/adminvendorlevel" element={<AdminVendorLevel />} />
-        <Route path="/adminbusiness" element={<AdminBusiness />} />
-        <Route path="/admincategory" element={<AdminCategory />} />
-        <Route path="/admincategory/:id" element={<AdminCategory />} />
-    </Routes>
+
+    <Router>
+      <Routes>
+        {/* Route for Login - Public Route */}
+        <Route path="/login" element={<Login />} />
+
+        {/* Protected Routes */}
+        <Route path="/register" element={<Register />}/>
+        <Route path="/" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+        <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+        <Route path="/category" element={<ProtectedRoute><Category /></ProtectedRoute>} />
+        <Route path="/vendor-levels" element={<ProtectedRoute><VendorLevelList /></ProtectedRoute>}/>
+        <Route path="/all_business" element={<ProtectedRoute><BusinessList /></ProtectedRoute>} />
+        <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
+        <Route path="/currency" element={<ProtectedRoute><Currency /></ProtectedRoute>} />
+        <Route path="/faq" element={<ProtectedRoute><FAQ /></ProtectedRoute>} />
+
+       
+
+
+      </Routes>
+    </Router>
+
   );
 }
 
